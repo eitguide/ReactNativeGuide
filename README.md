@@ -124,5 +124,19 @@ export interface FlexStyle {
 type FlexAlignType = "flex-start" | "flex-end" | "center" | "stretch" | "baseline";
 ~~~~
 
+## Navigator React Native
+### Install
+npm install --save react-navigation
+
+### List Navigator available
+1. StackNavigator
+2. TabNavigator
+3. DrawerNavigator
+
+### List NavigatorConfig
+1. StackNavigatorConfig
+2. TabNavigatorConfig
+3. DrawerNavigatorConfig
+
 
 
