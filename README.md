@@ -150,4 +150,31 @@ npm install --save react-navigation
 3. DrawerNavigatorConfig
 
 
+### Config 
+~~~~
+export interface NavigationStackViewConfig {
+  mode?: 'card' | 'modal',
+  headerMode?: HeaderMode,
+  cardStyle?: Style,
+  transitionConfig?: () => TransitionConfig,
+  onTransitionStart?: () => void,
+  onTransitionEnd?: () => void,
+}
+
+export type NavigationStackScreenOptions = NavigationScreenOptions & {
+  header?: (React.ReactElement<any> | ((headerProps: HeaderProps) => React.ReactElement<any>)) | null,
+  headerTitle?: string | React.ReactElement<any>,
+  headerTitleStyle?: Style,
+  headerTintColor?: string,
+  headerLeft?: React.ReactElement<any>,
+  headerBackTitle?: string | null,
+  headerTruncatedBackTitle?: string,
+  headerBackTitleStyle?: Style,
+  headerPressColorAndroid?: string,
+  headerRight?: React.ReactElement<any>,
+  headerStyle?: Style,
+  gesturesEnabled?: boolean,
+};
+~~~~
+
 
