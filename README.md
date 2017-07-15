@@ -1,6 +1,6 @@
-#Note React Native
+# Note React Native
 
-##Phím tắt trong React Native sử dụng Visual Code
+## Phím tắt trong React Native sử dụng Visual Code
 
 imr	Import React
 imrc	Import React Component
@@ -34,8 +34,8 @@ log	Console Log
 tdesc	Test Describe
 tit	Test It
 
-##Code Style Trong React Native
-###ViewStyle
+## Code Style Trong React Native
+### ViewStyle
 ~~~~
 // @see https://facebook.github.io/react-native/docs/view.html#style
 export interface ViewStyle extends FlexStyle, TransformsStyle {
@@ -119,7 +119,7 @@ export interface FlexStyle {
     direction?: 'inherit' | 'ltr' | 'rtl'
 }
 ~~~~
-###FlexAlignType
+### FlexAlignType
 ~~~~
 type FlexAlignType = "flex-start" | "flex-end" | "center" | "stretch" | "baseline";
 ~~~~
