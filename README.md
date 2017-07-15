@@ -1,5 +1,7 @@
 #Note React Native
+
 ##Phím tắt trong React Native sử dụng Visual Code
+
 imr	Import React
 imrc	Import React Component
 imrn	Import React-Native Element
@@ -116,6 +118,10 @@ export interface FlexStyle {
      */
     direction?: 'inherit' | 'ltr' | 'rtl'
 }
+~~~~
+###FlexAlignType
+~~~~
+type FlexAlignType = "flex-start" | "flex-end" | "center" | "stretch" | "baseline";
 ~~~~
 
 
