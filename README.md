@@ -1,5 +1,16 @@
 # Note React Native
 
+## Init Project and Build Project React Native
+### Init Project
+~ react-native init ProjectName ~
+
+### Build Project
+Go to Project Folder and run following code.
+#### Android
+~ react-native run-android ~
+
+#### iOS
+~ react-native run-ios
 ## Phím tắt trong React Native sử dụng Visual Code
 
 * **imr**	Import React
