@@ -1,5 +1,13 @@
 # Note React Native
 
+## Install React Native
+### Install NodeJS
+`brew install node`
+### Install Watchman
+`brew install watchman`
+### Install React Native CLI 
+`npm install -g react-native-cli`
+
 ## Init Project and Build Project React Native
 ### Init Project
 `react-native init ProjectName`
