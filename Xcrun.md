@@ -1,3 +1,4 @@
+~~~
 usage: simctl [--noxpc] [--set <path>] [--profiles <path>] <subcommand> ...
        simctl help [subcommand]
 Command line utility to control the Simulator
@@ -6,7 +7,10 @@ For subcommands that require a <device> argument, you may specify a device UDID
 or the special "booted" string which will cause simctl to pick a booted device.
 If multiple devices are booted when the "booted" device is selected, simctl
 will choose one of them.
+~~~
 
+
+~~~
 Subcommands:
 	create              Create a new device.
 	clone               Clone an existing device.
@@ -37,3 +41,4 @@ Subcommands:
 	io                  Set up a device IO operation.
 	diagnose            Collect diagnostic information and logs.
 	logverbose          enable or disable verbose logging for a device
+~~~
